@@ -1,0 +1,22 @@
+<?php
+return [
+    'HOME' => 'Home',
+    'ADD_USER' => 'Add User',
+    'LANGUAGE' => 'Language',
+    'ARABIC' => 'عربي',
+    'ENGLISH' => 'English',
+    'LOGIN' => 'Login',
+    'REGISTER' => 'Register',
+    'USERS' => 'Users',
+    'EMAIL' => 'Email',
+    'NAME' => 'Name',
+    'COMMENT' => 'Comment',
+    'WRITE_COMMENT' => 'Write Your Comment',
+    'ADD' => 'Add',
+    'SITE_NAME' => 'News',
+    'MOBILE' => 'Mobile',
+    'ADDRESS' => 'Address',
+    'READ_MORE' => 'Read More...',
+    'NEWS_ID' => 'News ID',
+    'COMMENTS' => 'Comments',
+  ];

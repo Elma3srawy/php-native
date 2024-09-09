@@ -1,0 +1,12 @@
+<?php 
+if(php_sapi_name() == 'cli') {
+    if($argv[1] == 'view:clear'){
+        $files = glob('storage/views/*');
+        foreach($files as $file){
+            if(file_exists($file)){
+                unlink($file);
+            }
+        }
+        echo 'view cleared successfully';
+    }
+}
